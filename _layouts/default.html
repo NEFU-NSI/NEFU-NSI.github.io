@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-  <!-- {% include head.html %} -->
+<!-- {% include head.html %} -->
 
-  <body>
+<body>
 
-    <!-- {% include header.html %} -->
+  <!-- {% include header.html %} -->
 
-        {{ content }}
+  {{ content }}
 
-    <!-- {% include footer.html %}
+  <!-- {% include footer.html %}
     {% include backToTop.html %}
     <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
     <script src="{{ " /js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
-    <!-- <script type="text/javascript">
+  <!-- <script type="text/javascript">
       smoothScroll.init({
         speed: 500, // Integer. How fast to complete the scroll in milliseconds
         easing: 'easeInOutCubic', // Easing pattern to use
@@ -21,6 +21,7 @@
       });
     </script>
     <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
-  </body>
+  {% include gitalk.html %}
+</body>
 
 </html>

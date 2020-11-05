@@ -16,11 +16,11 @@ permalink: /:year/:month/:day/:title/
 github_username:  NEFU-NSI
 
 gittalk: 
-    clientID: 38dea5c95869f860ad62
-    clientSecret: c25da8af58b66b9eb387ee7b02294fce04ef39f2
+    clientID: 479474b55cac83a9bbf7
+    clientSecret: d69ed829d9d1141b4c583537b747605839eeac19
     repo: gitalk
     owner: NEFU-NSI
-    
+
 google_analytics_id: UA-174157737-1 # google 分析追踪id
 
 # Build settings
