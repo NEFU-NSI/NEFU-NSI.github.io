@@ -115,3 +115,9 @@
 	});
 
 })(jQuery);
+
+// alert("flag3{You_Are_WEB_Master!!}");
+
+// redirect to http://maple.nefu.edu.cn/lib
+
+window.location.href="https://maple.nefu.edu.cn/lab/"; 
